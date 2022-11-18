@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+<ScrollView
+        android:id="@+id/scrollFirst"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Corona Virus "
+    android:textColor="#E53935"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+
+    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="The first case of COVID-19 was reported Dec. 1, 2019, and the cause was a
+then-new coronavirus later named SARS-CoV-2. SARS-CoV-2 may have
+originated in an animal and changed (mutated) so it could cause illness in
+humans. In the past, several infectious disease outbreaks have been traced to
+viruses originating in birds, pigs, bats and other animals that mutated to
+become dangerous to humans. Research continues, and more study may reveal
+how and why the coronavirus evolved to cause pandemic diseas
+"
+
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="5dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="The incubation period for COVID-19"
+    android:textColor="@color/black"
+    android:layout_marginStart="5dp"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Symptoms show up in people within two to 14 days of exposure to
+the virus. A person infected with the coronavirus is contagious to others for up
+to two days before symptoms appear, and they remain contagious to others for
+10 to 20 days, depending upon their immune system and the severity of their
+illness.Research continues, and more study may reveal
+how and why the coronavirus evolved to cause pandemic disease.
+
+"
+
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>
+<ScrollView
+    android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Symptoms of COVID-19"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Most common symptoms"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1.  Fever"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.  Cough"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.  Tiredness"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Less common symptoms:"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="1.  Sore throat"
+    android:textSize="15sp"/>
+                <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="2.  Headache"
+    android:textSize="15sp"/>
+                <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="3.  Aches and pains"
+    android:textSize="15sp"/>
+                <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="4.  Diarrhoea"
+    android:textSize="15sp"/>
+                <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="5.  A rash on skin, or discolouration of fingers or toes"
+    android:textSize="15sp"/>
+                <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="6.  Red or irritated eyes."
+    android:textSize="15sp"/>
+                <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Serious symptoms:"
+    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.  Difficulty breathing or shortness of breath"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.   Loss of speech or mobility, or confusion
+"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.  Chest pain."
+                    android:textSize="15sp"/>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
